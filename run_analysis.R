@@ -39,6 +39,6 @@ names(Final_label) <- "Activity"
 ## label the data set
 names(joinSubject) <- "subject"
 Final_Data <- cbind(Join_Subject, Final_label, Result)
-## Write the tidy data set output
-write.table(Final_Data, "tidy_data.txt") # write out the 1st dataset
+## Write the final tidy data set output
+write.table(Final_Data, "tidy_data.txt") 
 

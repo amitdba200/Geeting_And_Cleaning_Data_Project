@@ -21,9 +21,9 @@ The run_analysis.R script contains the steps to clean the data:
 
 *1. Read X_train.txt, y_train.txt and subject_train.txt from the "./data/train" folder and store them in Train_Data_Set, Train_Data_Set_Label and Train_Subject variables.
 
-*2. Read X_test.txt, y_test.txt and subject_test.txt from the "./data/test" folder and store them in Test_Data_Set, testLabel and Test_Subject variables.
+*2. Read X_test.txt, y_test.txt and subject_test.txt from the "./data/test" folder and store them in Test_Data_Set, Test_Label and Test_Subject variables.
 
-*3. Concatenate Test_Data_Set to Train_Data_Set..
+*3. Concatenate Test_Data_Set to Train_Data_Set.
 
 *4. Concatenate testLabel to Train_Data_Set_Label.
 
@@ -39,6 +39,6 @@ The run_analysis.R script contains the steps to clean the data:
 
 *10. Transform the values of Final_label according to the Activity_Data_Set data frame.
 
-*11. column bind follwing (Join_Subject, joinLabel,Result) to get Final_Data. 
+*11. column bind follwing (Join_Subject, Final_label,Result) to get Final_Data. 
 
 *12. Write the Final_Data to tidy_data.txt file.
